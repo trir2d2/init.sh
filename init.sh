@@ -7,3 +7,4 @@ sudo apt-get --yes --force-yes install htop
 alias s='sudo'
 sudo apt-get install --yes --force-yes curl
 sudo curl -sSL https://get.docker.com/ | sh
+sudo usermod -aG docker $USER
